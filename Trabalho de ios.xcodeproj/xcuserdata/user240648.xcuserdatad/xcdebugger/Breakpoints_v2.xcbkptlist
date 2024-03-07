@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F0025084-F483-4581-B939-6FA6ADBE2189"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E4607E5-1139-417F-9A85-CADE9B6798C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Trabalho de ios/View/Profile/ProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1E4607E5-1139-417F-9A85-CADE9B6798C0 - 6603b2ea31a01353"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Trabalho_de_ios.ProfileView.body.getter : some"
+                  moduleName = "Trabalho de ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user240648/Desktop/Trabalho%20de%20ios/Trabalho%20de%20ios/View/Profile/ProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "1E4607E5-1139-417F-9A85-CADE9B6798C0 - 6603b2ea31a01332"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Trabalho_de_ios.ProfileView.body.getter : some"
+                  moduleName = "Trabalho de ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user240648/Desktop/Trabalho%20de%20ios/Trabalho%20de%20ios/View/Profile/ProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "1E4607E5-1139-417F-9A85-CADE9B6798C0 - 3a6d05c4c179637d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt;&gt;)&gt;&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(Trabalho_de_ios.SettingsRowView, SwiftUI.Spacer, SwiftUI.Text)&gt;&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Button&lt;Trabalho_de_ios.SettingsRowView&gt;, SwiftUI.Button&lt;Trabalho_de_ios.SettingsRowView&gt;)&gt;, SwiftUI.EmptyView&gt;)&gt; in Trabalho_de_ios.ProfileView.body.getter : some"
+                  moduleName = "Trabalho de ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user240648/Desktop/Trabalho%20de%20ios/Trabalho%20de%20ios/View/Profile/ProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "1E4607E5-1139-417F-9A85-CADE9B6798C0 - 6603b2ea31a013b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Trabalho_de_ios.ProfileView.body.getter : some"
+                  moduleName = "Trabalho de ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user240648/Desktop/Trabalho%20de%20ios/Trabalho%20de%20ios/View/Profile/ProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "1E4607E5-1139-417F-9A85-CADE9B6798C0 - 3a6d05c4c17963f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.EmptyView, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt;&gt;)&gt;&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(Trabalho_de_ios.SettingsRowView, SwiftUI.Spacer, SwiftUI.Text)&gt;&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Button&lt;Trabalho_de_ios.SettingsRowView&gt;, SwiftUI.Button&lt;Trabalho_de_ios.SettingsRowView&gt;)&gt;, SwiftUI.EmptyView&gt;)&gt; in Trabalho_de_ios.ProfileView.body.getter : some"
+                  moduleName = "Trabalho de ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user240648/Desktop/Trabalho%20de%20ios/Trabalho%20de%20ios/View/Profile/ProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "484">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
