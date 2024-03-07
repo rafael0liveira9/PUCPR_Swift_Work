@@ -1,14 +1,13 @@
 //
-//  Trabalho_de_iosTests.swift
-//  Trabalho de iosTests
+//  pucpr_work_swiftTests.swift
+//  pucpr-work-swiftTests
 //
-//  Created by user240648 on 2/25/24.
+//  Created by Rafael Oliveira on 07/03/24.
 //
 
 import XCTest
-@testable import Trabalho_de_ios
 
-final class Trabalho_de_iosTests: XCTestCase {
+final class pucpr_work_swiftTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -28,7 +27,7 @@ final class Trabalho_de_iosTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }

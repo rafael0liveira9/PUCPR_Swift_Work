@@ -1,13 +1,13 @@
 //
-//  Trabalho_de_iosUITests.swift
-//  Trabalho de iosUITests
+//  pucpr_work_swiftUITests.swift
+//  pucpr-work-swiftUITests
 //
-//  Created by user240648 on 2/25/24.
+//  Created by Rafael Oliveira on 07/03/24.
 //
 
 import XCTest
 
-final class Trabalho_de_iosUITests: XCTestCase {
+final class pucpr_work_swiftUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
