@@ -37,6 +37,7 @@ struct RegisterView: View {
                         .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
                     
                     ZStack(alignment: .trailing) {
+                        
                         InputLoginView(text: $confirmPassword,
                                        title: "Confirmar Senha",
                                        placeholder: "Confirme sua senha...",

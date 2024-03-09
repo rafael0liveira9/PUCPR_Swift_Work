@@ -27,6 +27,15 @@
 		2702661F2B99F46500B8284F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2702661E2B99F46500B8284F /* FirebaseFirestoreSwift */; };
 		270266212B99F46500B8284F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 270266202B99F46500B8284F /* FirebaseStorage */; };
 		270266232B99F76400B8284F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 270266222B99F76400B8284F /* GoogleService-Info.plist */; };
+		2767E85D2B9A16310019AF17 /* FloatHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2767E85C2B9A16310019AF17 /* FloatHomeView.swift */; };
+		2767E8602B9A1C980019AF17 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2767E85F2B9A1C980019AF17 /* ServicesView.swift */; };
+		2767E8622B9A282B0019AF17 /* ServiceItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2767E8612B9A282B0019AF17 /* ServiceItemView.swift */; };
+		2767E8642B9A2F2A0019AF17 /* ServiceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2767E8632B9A2F2A0019AF17 /* ServiceAdapter.swift */; };
+		2767E8662B9A325A0019AF17 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2767E8652B9A325A0019AF17 /* Service.swift */; };
+		2767E8682B9A3A540019AF17 /* ServicePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2767E8672B9A3A540019AF17 /* ServicePageView.swift */; };
+		2767E86C2B9A5C1C0019AF17 /* AvaibleDateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2767E86B2B9A5C1C0019AF17 /* AvaibleDateItemView.swift */; };
+		27AEFD072B9B8CA40063AE72 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEFD062B9B8CA40063AE72 /* Schedule.swift */; };
+		27AEFD092B9B8D840063AE72 /* ScheduleAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEFD082B9B8D840063AE72 /* ScheduleAdapter.swift */; };
 		27B7CC532B99F131006A0579 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B7CC522B99F131006A0579 /* Preview Assets.xcassets */; };
 		27B7CC5D2B99F132006A0579 /* pucpr_work_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B7CC5C2B99F132006A0579 /* pucpr_work_swiftTests.swift */; };
 		27B7CC672B99F132006A0579 /* pucpr_work_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B7CC662B99F132006A0579 /* pucpr_work_swiftUITests.swift */; };
@@ -66,6 +75,15 @@
 		2702660D2B99F3BB00B8284F /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		2702660F2B99F3BB00B8284F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		270266222B99F76400B8284F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2767E85C2B9A16310019AF17 /* FloatHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatHomeView.swift; sourceTree = "<group>"; };
+		2767E85F2B9A1C980019AF17 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		2767E8612B9A282B0019AF17 /* ServiceItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceItemView.swift; sourceTree = "<group>"; };
+		2767E8632B9A2F2A0019AF17 /* ServiceAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAdapter.swift; sourceTree = "<group>"; };
+		2767E8652B9A325A0019AF17 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		2767E8672B9A3A540019AF17 /* ServicePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePageView.swift; sourceTree = "<group>"; };
+		2767E86B2B9A5C1C0019AF17 /* AvaibleDateItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaibleDateItemView.swift; sourceTree = "<group>"; };
+		27AEFD062B9B8CA40063AE72 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		27AEFD082B9B8D840063AE72 /* ScheduleAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleAdapter.swift; sourceTree = "<group>"; };
 		27B7CC472B99F125006A0579 /* pucpr-work-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pucpr-work-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B7CC502B99F131006A0579 /* pucpr_work_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pucpr_work_swift.entitlements; sourceTree = "<group>"; };
 		27B7CC522B99F131006A0579 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -122,6 +140,9 @@
 				270265FA2B99F38B00B8284F /* InputLoginView.swift */,
 				270265FB2B99F38B00B8284F /* ScheduleItemView.swift */,
 				270265FC2B99F38B00B8284F /* SettingsRowView.swift */,
+				2767E85C2B9A16310019AF17 /* FloatHomeView.swift */,
+				2767E8612B9A282B0019AF17 /* ServiceItemView.swift */,
+				2767E86B2B9A5C1C0019AF17 /* AvaibleDateItemView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -130,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				270266022B99F3A700B8284F /* AuthAdapter.swift */,
+				2767E8632B9A2F2A0019AF17 /* ServiceAdapter.swift */,
+				27AEFD082B9B8D840063AE72 /* ScheduleAdapter.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -138,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				270266052B99F3B200B8284F /* User.swift */,
+				2767E8652B9A325A0019AF17 /* Service.swift */,
+				27AEFD062B9B8CA40063AE72 /* Schedule.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,12 +203,22 @@
 		270266112B99F3BB00B8284F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2767E85E2B9A1C850019AF17 /* Services */,
 				2702660A2B99F3BB00B8284F /* Authentication */,
 				2702660C2B99F3BB00B8284F /* Home */,
 				2702660E2B99F3BB00B8284F /* Profile */,
 				270266102B99F3BB00B8284F /* Root */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2767E85E2B9A1C850019AF17 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2767E85F2B9A1C980019AF17 /* ServicesView.swift */,
+				2767E8672B9A3A540019AF17 /* ServicePageView.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		27B7CC3E2B99F124006A0579 = {
@@ -393,14 +428,23 @@
 				270266002B99F38B00B8284F /* ScheduleItemView.swift in Sources */,
 				270266012B99F38B00B8284F /* SettingsRowView.swift in Sources */,
 				270266152B99F3BC00B8284F /* ProfileView.swift in Sources */,
+				2767E8662B9A325A0019AF17 /* Service.swift in Sources */,
+				2767E8602B9A1C980019AF17 /* ServicesView.swift in Sources */,
 				270266122B99F3BB00B8284F /* LoginView.swift in Sources */,
 				270266142B99F3BB00B8284F /* HomeView.swift in Sources */,
 				270266042B99F3A700B8284F /* AuthAdapter.swift in Sources */,
 				270266072B99F3B200B8284F /* User.swift in Sources */,
 				270265FE2B99F38B00B8284F /* HeaderView.swift in Sources */,
+				27AEFD072B9B8CA40063AE72 /* Schedule.swift in Sources */,
+				2767E8622B9A282B0019AF17 /* ServiceItemView.swift in Sources */,
 				270266162B99F3BC00B8284F /* ContentView.swift in Sources */,
 				270265F82B99F37D00B8284F /* UIColor+Extensions.swift in Sources */,
+				2767E8642B9A2F2A0019AF17 /* ServiceAdapter.swift in Sources */,
+				2767E86C2B9A5C1C0019AF17 /* AvaibleDateItemView.swift in Sources */,
+				27AEFD092B9B8D840063AE72 /* ScheduleAdapter.swift in Sources */,
+				2767E85D2B9A16310019AF17 /* FloatHomeView.swift in Sources */,
 				270265FF2B99F38B00B8284F /* InputLoginView.swift in Sources */,
+				2767E8682B9A3A540019AF17 /* ServicePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

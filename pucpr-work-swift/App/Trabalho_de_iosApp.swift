@@ -11,6 +11,7 @@ import Firebase
 @main
 struct Trabalho_de_iosApp: App {
     @StateObject var authAdapter = AuthAdapter()
+    @StateObject var scheduleAdapter = ScheduleAdapter()
     
     init () {
         FirebaseApp.configure()
@@ -18,8 +19,14 @@ struct Trabalho_de_iosApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(authAdapter)
+            if let user = authAdapter.currentUser {
+                HomeView()
+                    .environmentObject(authAdapter)
+                    .environmentObject(scheduleAdapter)
+            }else{
+                LoginView()
+                    .environmentObject(authAdapter)
+            }
         }
     }
 }

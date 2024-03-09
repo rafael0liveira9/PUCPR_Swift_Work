@@ -1,14 +1,14 @@
 //
-//  ScheduleItemView.swift
-//  Trabalho de ios
+//  ServiceItemView.swift
+//  pucpr-work-swift
 //
-//  Created by user240648 on 3/6/24.
+//  Created by Rafael Oliveira on 07/03/24.
 //
 
 import SwiftUI
 
-struct ScheduleItemView: View {
-    let date: String
+struct ServiceItemView: View {
+    let value: String
     let image: String
     let title: String
     let description: String
@@ -18,13 +18,13 @@ struct ScheduleItemView: View {
             HStack {
                 Rectangle()
                     .frame(height: 0.5)
-                    .background(Color.black)
+                    .background(Color(UIColor.green))
                 
-                Text(date)
+                Text(value)
                     .fontWeight(.semibold)
                     .padding(.vertical, 4)
                     .padding(.horizontal, 10)
-                    .background(Color(#colorLiteral(red: 1.0, green: 0.85, blue: 0.85, alpha: 1.0)))
+                    .background(Color(UIColor.green))
                     .cornerRadius(5)
                     .offset(y: 10)
             }.padding(.horizontal, 10)
@@ -42,18 +42,23 @@ struct ScheduleItemView: View {
                     Text(description)
                         .font(.footnote)
                         .foregroundColor(.gray)
+                    
                 }
-            }.offset(y: -10)
+                Spacer()
+            }
+            .offset(y: -10)
+            .padding(.horizontal, 10)
+            .padding(.bottom, 15)
             
         }
-        .padding(5)
-        .padding(.bottom, 15)
         .background(Color.white)
         .cornerRadius(15.0)
+        .padding(10)
         .shadow(color: .black, radius: 3, x: 0, y: 2)
     }
+    
 }
 
 #Preview {
-    ScheduleItemView(date: "DD/MM", image: "image-blur", title: "Lorem Ipsum", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry")
+    ServiceItemView(value: "R$ 350,00", image: "image-blur", title: "Lorem Ipsum", description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry")
 }

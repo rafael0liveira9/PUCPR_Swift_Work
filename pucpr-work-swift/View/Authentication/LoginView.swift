@@ -63,7 +63,7 @@ struct LoginView: View {
                     .font(.system(size: 14))
                 }
             }
-        }
+        }.navigationBarBackButtonHidden(true)
     }
 }
 

@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         Group {
             if authAdapter.userSession != nil {
-                ProfileView()
+                HomeView()
             }else {
                 LoginView()
             }

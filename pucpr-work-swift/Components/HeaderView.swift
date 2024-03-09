@@ -8,35 +8,30 @@
 import SwiftUI
 
 struct HeaderView: View {
+    @State private var isProfileViewActive: Bool = false
     let pageTitle: String
 
     var body: some View {
         VStack {
             HStack {
                 Spacer()
-                
                 Text(pageTitle)
                     .fontWeight(.semibold)
                     .font(.system(size: 22))
                     .padding(.top, 4)
-                    .foregroundColor(.black)
-                    .padding(.trailing, 95)
+                    .foregroundColor(.white)
                 
-                Image(systemName: "person.circle.fill")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 40, height: 40)
-                    .padding(.trailing, 20)
-                    .foregroundColor(.black)
+                Spacer()
+                
             }
             .frame(height: 70)
             .padding(.top, 15)
-            
-            
+
             Spacer()
         }
-        .frame(height: 130)
-        .background(Color(UIColor.rosaclaro))
+        .frame(height: 70)
+        .background(Color(UIColor.rosaescuro))
+        .shadow(color: .black, radius: 3, x: 0, y: 2)
     }
 }
 

@@ -8,6 +8,7 @@
 import Foundation
 import Firebase
 import FirebaseFirestoreSwift
+import SwiftUI
 
 protocol AuthenticationFormProtocol {
     var formIsValid: Bool{get}
@@ -50,10 +51,13 @@ class AuthAdapter: ObservableObject{
     }
     
     func signOut() {
+        print("DEBUG: Chamando signOut")
         do {
             try Auth.auth().signOut()
             self.userSession = nil
             self.currentUser = nil
+            
+            LoginView()
         } catch {
             print("ERRO: Falha ao Fazer LogOff \(error.localizedDescription)")
         }
@@ -74,11 +78,12 @@ class AuthAdapter: ObservableObject{
         }
     
     func getUserData() async throws {
-        guard let uid = Auth.auth().currentUser?.uid else {return}
-        guard let snapshot = try? await Firestore.firestore().collection("users").document(uid).getDocument() else {return}
+        guard let uid = Auth.auth().currentUser?.uid else { return }
+        guard let snapshot = try? await Firestore.firestore().collection("users").document(uid).getDocument() else { return }
         self.currentUser = try? snapshot.data(as: User.self)
         
         print("INFO: User is \(String(describing: self.currentUser))")
     }
+    
 
 }
