@@ -56,7 +56,7 @@ struct InfoModalView: View {
                     .font(.title)
                     .padding()
                 
-                // Aqui você pode exibir as informações específicas do agendamento
+                
                 if let schedule = schedule {
 
                     Text("Serviço: \(schedule.serviceName)")

@@ -55,7 +55,7 @@ class ScheduleAdapter: ObservableObject {
         do {
             print("Deleting schedule with id: \(id)")
 
-            // Convertendo o ID para um timestamp Unix para usar como identificador no Firestore
+            
             let timestamp = id.timeIntervalSince1970
 
             try await Firestore.firestore().collection("schedule").document("\(timestamp)").delete()

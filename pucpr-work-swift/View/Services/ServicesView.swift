@@ -44,7 +44,7 @@ struct ServicesView: View {
                         do {
                             services = try await serviceAdapter.getData()
                         } catch {
-                            // Tratar erro, se necessário
+                            
                             print("Erro ao obter dados: \(error.localizedDescription)")
                         }
                     }
